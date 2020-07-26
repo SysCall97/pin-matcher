@@ -71,5 +71,5 @@ function displayNotMatched() {
 }
 
 function getRandomNumberInRange(maximum, minimum) {
-    return randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+    return Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 }
